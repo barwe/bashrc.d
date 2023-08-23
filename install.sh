@@ -1,5 +1,5 @@
-# curl -o install.sh https://github.com/barwe/bashrc.d/blob/master/install.sh && . install.sh
-git clone --depth 1 https://github.com/barwe/bashrc.d.git $HOME
+# wget https://raw.githubusercontent.com/barwe/bashrc.d/master/install.sh && bash install.sh
+git clone --depth 1 https://github.com/barwe/bashrc.d.git $HOME/bashrc.d
 
 if [ -z "$(grep BARWE_BASHRC_D $HOME/.bashrc)" ]; then
   echo -e '## BARWE_BASHRC_D' >> $HOME/.bashrc;
